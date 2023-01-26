@@ -1,6 +1,52 @@
 //==============================================================================================
-// Variáveis cores
+// Mixin 
 
+@mixin layout($radio){
+    background-color: $background-generic;
+    color: $color-inteface;
+    border-bottom: 1px solid gray;
+    width: 500px;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+    padding: $padding-generic;
+    font-family: $font;
+    display: flex;
+    margin: 5% auto 0px auto;
+
+    @if $radio == cima {
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    } @else {
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+}
+
+@mixin layout-2($radio-2){
+    background-color: $background-generic;
+    width: 500px;
+    padding: $padding-generic;
+    font-family: $font;
+    margin: auto; 
+    
+    @if $radio-2 == baixo {
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    } @else {
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+}
+
+//==============================================================================================
+// Variáveis
+
+$background-generic: white;
+$color-inteface: darkgray;
+$padding-generic: 2em;
+$font: arial, helvetica, sans-serif;
+$title: 1.7em;
 
 //==============================================================================================
 // BASE 

@@ -1,1 +1,80 @@
-/*# sourceMappingURL=main.css.map */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(40deg, rgb(0, 237, 77) 0%, rgb(39, 145, 27) 40%, rgb(12, 78, 11) 60%);
+  background-size: 200%;
+  background-repeat: no-repeat;
+}
+
+html {
+  height: 100vh;
+}
+
+#imc #tool-1 {
+  background-color: white;
+  color: darkgray;
+  border-bottom: 1px solid gray;
+  width: 500px;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
+  padding: 2em;
+  font-family: arial, helvetica, sans-serif;
+  display: flex;
+  margin: 5% auto 0px auto;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+#imc #tool-1 .svg-img {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+#imc #tool-1 .title-tools {
+  font-size: 1.7em;
+}
+#imc #tool-1 button {
+  border: none;
+  background-color: transparent;
+}
+#imc #imc-tool {
+  background-color: white;
+  width: 500px;
+  padding: 2em;
+  font-family: arial, helvetica, sans-serif;
+  margin: auto;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  display: none;
+  flex-direction: column;
+}
+#imc #imc-tool #imc-input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 7px;
+}
+#imc #imc-tool .input-imc {
+  width: 200px;
+  margin: auto;
+  border: none;
+  background-color: darkgray;
+  padding: 5px;
+  border-radius: 20px;
+  color: white;
+  font-family: arial, helvetica, sans-serif;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+#imc #imc-tool label {
+  position: relative;
+  left: 29%;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}/*# sourceMappingURL=main.css.map */
