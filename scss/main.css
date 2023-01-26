@@ -49,7 +49,7 @@ html {
   margin: auto;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
-  display: none;
+  display: flex;
   flex-direction: column;
 }
 #imc #imc-tool #imc-input {
@@ -77,4 +77,20 @@ html {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+}
+#imc #imc-tool #imc-submit {
+  margin: 5% auto;
+}
+#imc #imc-tool #imc-submit button {
+  padding: 20px 50px;
+  border-radius: 20px;
+  font-family: arial, helvetica, sans-serif;
+  color: white;
+  text-shadow: 0px 0px 1px black;
+  background-image: linear-gradient(to top, rgb(112, 175, 23), yellowgreen, rgb(125, 176, 23), rgb(106, 151, 15));
+  background-size: 300%;
+  border: 1px solid green;
+}
+#imc #imc-tool #imc-submit button:hover {
+  background-image: linear-gradient(to bottom, rgb(106, 151, 15), yellowgreen, rgb(125, 176, 23), rgbrgb(112, 175, 23));
 }/*# sourceMappingURL=main.css.map */
