@@ -22,8 +22,17 @@
                 <label for="peso">Peso</label>
                 <input type="number" name="peso" id="peso" class="input-imc">
             </div>
+            <div id="sexo">
+                <label for="gen-1" class="gen">Homem</label>
+                <input type="radio" name="sex" id="gen-1">
+                <label for="gen-2" class="gen">Mulher</label>
+                <input type="radio" name="sex" id="gen-2">
+            </div>
             <div id="imc-submit">
-                <button type="submit">Confirmar</button>
+                <button type="submit" onclick="calcular()">Confirmar</button>
+            </div>
+            <div id="res">
+                Resultado...
             </div>
         </div>
     </div>
