@@ -36,9 +36,10 @@
             margin: auto;
             border: none;
             background-color: lightgray;
-            padding: 5px;
+            padding: 9px;
             border-radius: 20px;
             color: white;
+            font-weight: 400;
             font-family: $font;
             appearance: none;
         }
@@ -74,7 +75,7 @@
         #res {
             margin: auto;
             border: 1px solid black;
-            width: 300px;
+            width: 350px;
             padding: 20px;
             color: white;
             border-radius: 20px; 
@@ -95,4 +96,14 @@
             position: initial;
         }
     }
+
+    span {
+        line-height: 2em;
+        text-transform: uppercase;
+    }
+
+    .info {
+        font-weight: bold;
+    }
 }
+

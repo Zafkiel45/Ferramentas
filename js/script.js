@@ -18,24 +18,22 @@ function calcular() {
     let total = (num2 / num1 ** 2).toFixed(2);
 
     if(gen[0].checked) {
-        res.innerHTML = `Você é um homem e  seu IMC é: ${total}<br>
+        res.innerHTML = `<p class ="info">Você é um homem e  seu IMC é: ${total} </p>
+        <br>
         - <span class="perigo"> Abaixo do peso: < 20.7 </span>
         <br>
         - <span class="normal">Peso normal: 20.7 - 26.4 </span>
-        <br>
-        - <span class="alerta">Marginalmente acima do peso: 26.4 - 27.8 </span>
         <br>
         - <span class="alerta">Acima do peso ideal: 27.8 - 31.1 </span>
         <br> 
         - <span class="perigo"> Obeso: > 31.1 </span>
         `
     } else if(gen[1].checked) {
-        res.innerHTML = `Você é uma mulher e  seu IMC é: ${total}<br>
+        res.innerHTML = `<p class ="info">Você é uma mulher e  seu IMC é: ${total}</p>
+        <br>
         - <span class="perigo"> Abaixo do peso: < 20.7 </span>
         <br>
         - <span class="normal">Peso normal: 20.7 - 26.4 </span>
-        <br>
-        - <span class="alerta">Marginalmente acima do peso: 26.4 - 27.8 </span>
         <br>
         - <span class="alerta">Acima do peso ideal: 27.8 - 31.1 </span>
         <br> 

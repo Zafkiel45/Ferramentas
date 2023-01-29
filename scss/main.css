@@ -4,14 +4,10 @@
   box-sizing: border-box;
 }
 
-body {
-  background: linear-gradient(40deg, rgb(0, 237, 77) 0%, rgb(39, 145, 27) 40%, rgb(12, 78, 11) 60%);
-  background-size: 200%;
+body, html {
+  background-color: rgb(0, 237, 77);
+  background-size: 400%;
   background-repeat: no-repeat;
-}
-
-html {
-  height: 100vh;
 }
 
 #imc #tool-1 {
@@ -63,9 +59,10 @@ html {
   margin: auto;
   border: none;
   background-color: lightgray;
-  padding: 5px;
+  padding: 9px;
   border-radius: 20px;
   color: white;
+  font-weight: 400;
   font-family: arial, helvetica, sans-serif;
   -webkit-appearance: none;
      -moz-appearance: none;
@@ -98,7 +95,7 @@ html {
 #imc #imc-tool #res {
   margin: auto;
   border: 1px solid black;
-  width: 300px;
+  width: 350px;
   padding: 20px;
   color: white;
   border-radius: 20px;
@@ -115,4 +112,11 @@ html {
 }
 #imc #imc-tool .gen {
   position: initial;
+}
+#imc span {
+  line-height: 2em;
+  text-transform: uppercase;
+}
+#imc .info {
+  font-weight: bold;
 }/*# sourceMappingURL=main.css.map */
